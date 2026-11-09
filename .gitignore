@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Generated flight-query lab outputs
+/db.json
+/errors.log
+/response_*.json

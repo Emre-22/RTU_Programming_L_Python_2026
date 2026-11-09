@@ -149,3 +149,15 @@ By the end of the course, students will be able to:
 - Integrate and test Python programs effectively  
 - Transition smoothly from C-style logic to expressive, idiomatic Python  
 
+
+## Python graded lab: Flight query tool
+
+The flight query tool is implemented by the top-level `flight_parser.py`, `validator.py`, `csv_loader.py`, and `query.py` modules. It uses only the Python standard library. The assignment-required AI disclosure is in `AI_USAGE.md`.
+
+Examples:
+
+```text
+python flight_parser.py -i data/db.csv -a data/airports.txt
+python flight_parser.py -d data/flights/ -a data/airports.txt -o out/db.json
+python flight_parser.py -j out/db.json -q data/query.json -r out/
+```
